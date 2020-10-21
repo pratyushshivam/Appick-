@@ -1,0 +1,532 @@
+.welcome__slantdiv__main{
+    /* border:2px solid red; */
+    box-shadow: 0px 0px 14px -5px rgba(0, 0, 0, 0.75); 
+}
+
+
+
+
+
+
+
+.welcome__slantdiv__main__upper{
+    height: 250px;
+    background-color: #ED5A29;
+    margin-bottom:10%;  
+    position: relative;
+    width: 100%;
+}
+.welcome__slantdiv__main__upper:after{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: '';
+    background: inherit;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    z-index:-1;
+    transform-origin: top left;
+    transform: skewY(4deg);
+
+}
+
+
+
+    /* BOTTOM PART SLANT  */
+
+
+
+.welcome__slantdiv__main__lower{
+    height: 250px;
+    background-color: #f7f1f1;
+    /* margin-bottom:2%;   */
+    position: relative;
+    
+    width: 100%;
+    /* box-shadow: 0px 0px 14px -7px rgba(0, 0, 0, 0.75); */
+    /* border:2px solid rgb(98, 0, 255); */
+    box-shadow: 0px 2px -4px 0px rgba(0,0,0,0.75);
+
+   
+}
+.welcome__slantdiv__main__lower:before{
+    position: absolute;
+    width: 100%;
+
+    height: 100%;
+    content: '';
+    background: inherit;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    z-index:-1;
+    transform-origin:bottom right;
+    transform: skewY(4deg);
+    /* box-shadow: 0px 0px 14px -7px rgba(0, 0, 0, 0.75); */
+    /* border:2px solid red; */
+
+    /* box-shadow: 0px -4px 4px -8px rgba(0, 0, 0, 0.75); */
+/* box-shadow: 0px -4px 4px -8px rgba(0, 0, 0, 0.75); */
+box-shadow: 0px -4px 4px -6px rgba(0, 0, 0, 0.75);
+
+}
+
+
+
+
+
+.welcome__slantdiv__main__upper h1{
+    /* border:3px solid red; */
+    width: fit-content;
+    margin-left:26%;
+    padding-top:2.5%;
+    font-size: 30px;
+    text-transform: uppercase;
+    color:white;
+
+}
+
+.welcome__slantdiv__main__lower h1{
+    /* border:3px solid red; */
+    width: fit-content;
+    margin-left:46%;
+    padding-top:2.5%;
+    font-size: 30px;
+    text-transform: uppercase;
+    color:#ED5A29;
+
+}
+
+.welcome__slantdiv__main__image img{
+    border:2px solid red;
+    /* position: relative; */
+    width: 29%;
+    transform: rotate(12deg);
+    border:2px solid rgb(255, 255, 255);
+    margin-left:-3%;
+    /* bottom:-2%;
+     border-radius: 5%;
+    left:5%; */
+    height: 340px;
+    object-fit: cover;
+border-radius: 19% 81% 70% 30% / 30% 46% 54% 70% ;
+border:2px solid rgb(255, 253, 253);
+/* background-color: green; */
+
+}
+.welcome__slantdiv__main__image{
+    position: relative;
+    top:-8%;
+    /* width: 200px; */
+
+
+
+   
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.welcome__slantdiv__main__image{
+    display: flex;
+}
+
+.welcome__slantdiv__main__image h1{
+    /* border:2px solid red; */
+    /* display: flex; */
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left:34%;
+    /* margin-right:15% !important; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.welcome__slantdiv__main__lower__image{
+    /* border:2px solid red; */
+
+    /* width:fit-content; */
+    position: relative;
+    right: 0%;
+    left: 72%;
+    
+    bottom:90%;
+
+}
+.welcome__slantdiv__main__lower__image img{
+    width: 36%;
+    height: 230px;
+}
+
+.welcome__slantdiv__main__lower{
+    /* border:2px solid red; */
+}
+
+
+#acer{
+    /* border:2px solid red; */
+    /* padding-right:5%; */
+    margin-left:22%;
+    /* margin-top:5%; */
+    position: relative;
+    top:-20%;
+   
+}
+
+body{
+    /* overflow-x: hidden !important;
+    overflow-y: hidden !important; */
+}
+
+/* MAIN CODE  */
+.welcome__slantdiv__main__lower__image img{ 
+    /* border:7px solid red; */
+    margin:0% !important;
+    padding:0.3% !important;
+    /* border:10px solid red; */
+    padding-top:0px !important;
+    padding-bottom:0px !important;
+    padding-left:0px !important;
+    padding-right:0px !important;
+    
+    
+
+   
+   
+}
+.welcome__slantdiv{
+    overflow: hidden;
+}
+.welcome__slantdiv__main__lower__image{
+    /* height:230px; */
+ 
+}
+body{
+    overflow-x: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1200px) {
+    
+.welcome__slantdiv__main__image img{
+    border:2px solid rgb(255, 255, 255);
+    /* position: relative; */
+    width: 33%;
+    margin-left:-3%;
+    /* bottom:-2%;
+     border-radius: 5%;
+    left:5%; */
+    height: 300px;
+    object-fit: cover;
+border-radius: 19% 81% 70% 30% / 30% 46% 54% 70% 
+}
+.welcome__slantdiv__main__image{
+    position: relative;
+    top:-8%;
+   
+
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 900px) {
+    .welcome__slantdiv__main__upper{
+        height: 100px;
+    
+        background-color: #ED5A29;
+        margin-bottom:2%;
+    }
+    
+
+.welcome__slantdiv__main__upper{
+    height: 100px;
+    background-color: #ED5A29;
+    margin-bottom:10%;  
+    position: relative;
+    width: 100%;
+}
+.welcome__slantdiv__main__upper:after{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: '';
+    background: inherit;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    z-index:-1;
+    transform-origin: top left;
+    transform: skewY(4deg);
+
+}
+
+
+
+    /* BOTTOM PART SLANT  */
+
+
+
+.welcome__slantdiv__main__lower{
+    height: 100px;
+    background-color: #f7f1f1;
+    /* margin-bottom:2%;   */
+    position: relative;
+    
+    width: 100%;
+    /* box-shadow: 0px 0px 14px -7px rgba(0, 0, 0, 0.75); */
+    /* border:2px solid rgb(98, 0, 255); */
+    box-shadow: 0px 2px -4px 0px rgba(0,0,0,0.75);
+
+   
+}
+.welcome__slantdiv__main__lower:before{
+    position: absolute;
+    width: 100%;
+
+    height: 100%;
+    content: '';
+    background: inherit;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    z-index:-1;
+    transform-origin:bottom right;
+    transform: skewY(4deg);
+    /* box-shadow: 0px 0px 14px -7px rgba(0, 0, 0, 0.75); */
+    /* border:2px solid red; */
+
+    /* box-shadow: 0px -4px 4px -8px rgba(0, 0, 0, 0.75); */
+/* box-shadow: 0px -4px 4px -8px rgba(0, 0, 0, 0.75); */
+box-shadow: 0px -4px 4px -6px rgba(0, 0, 0, 0.75);
+
+}
+.welcome__slantdiv__main__upper h1{
+    /* border:3px solid red; */
+    width: fit-content;
+    margin-left:30%;
+    padding-top:3%;
+    font-size: 13px;
+    text-transform: uppercase;
+    color:white;
+
+}
+
+.welcome__slantdiv__main__lower h1{
+    /* border:3px solid red; */
+    width: fit-content;
+    margin-left:50%;
+    padding-top:3%;
+    font-size: 13px;
+    text-transform: uppercase;
+    color:#ED5A29;
+
+}
+.welcome__slantdiv__main__image img{
+    border:2px solid rgb(255, 255, 255);
+    /* position: relative; */
+    width: 25%;
+    margin-left:-2%;
+    /* bottom:-2%;
+     border-radius: 5%;
+    left:5%; */
+    height: 160px;
+    object-fit: cover;
+border-radius: 19% 81% 70% 30% / 30% 46% 54% 70% 
+}
+.welcome__slantdiv__main__image{
+    position: relative;
+    top:-8%;
+   
+
+}
+
+
+
+
+
+.welcome__slantdiv__main__lower__image{
+    /* border:2px solid red; */
+
+    /* width:fit-content; */
+    position: relative;
+    right: 0%;
+    left: 75%;
+    
+    bottom:90%;
+
+}
+.welcome__slantdiv__main__lower__image img{
+    width: 30%;
+    height: 80px;
+}
+
+.welcome__slantdiv__main__lower{
+    /* border:2px solid red; */
+}
+
+
+#acer{
+    /* border:2px solid red; */
+    /* padding-right:5%; */
+    margin-left:22%;
+    /* margin-top:5%; */
+    position: relative;
+    top:-20%;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .welcome__slantdiv__main__image img{
+        border:2px solid rgb(255, 255, 255);
+        /* position: relative; */
+        width: 28%;
+        margin-left:-3%;
+        /* bottom:-2%;
+         border-radius: 5%;
+        left:5%; */
+        height: 110px;
+        object-fit: cover;
+    border-radius: 19% 81% 70% 30% / 30% 46% 54% 70% 
+    }
+    .welcome__slantdiv__main__image{
+        position: relative;
+        top:-2%;
+       
+    
+    }
+}
+
+
+.welcome__slantdiv{
+    /* border:2px solid red; */
+}

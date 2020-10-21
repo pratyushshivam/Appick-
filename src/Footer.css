@@ -1,0 +1,789 @@
+.welcome__footer__main{
+    /* border:2px solid red; */
+    /* background-color: rgb(47, 56, 78); */
+    background-color: rgb(41, 48, 65);
+    color:rgb(255, 255, 255) !important;
+ 
+ 
+    
+}
+.welcome__footer__main__upper{
+    /* border:2px solid greenyellow; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 260px;
+    
+
+
+
+}
+
+.welcome__footer__main__upper__left{
+    /* border:2px solid green; */
+    display: flex;
+    flex-direction: column;
+    /* border:2px solid rgb(199, 2, 238); */
+    height: 150px;
+    padding-left:1%;
+    /* padding-right:5%; */
+}
+.welcome__footer__main__upper__left__content{
+    /* border:2px solid red; */
+    width: 370px;
+ 
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    /* padding:1%; */
+    /* margin:1%; */
+}
+.welcome__footer__main__upper__left__content h1{
+   font-size: 14px;
+   letter-spacing: 1px;
+   line-height: 20px;
+
+}
+.welcome__footer__main__upper__left__header h1{
+    font-size: 17px;
+}
+
+.welcome__footer__main__upper__left__content__leftdiv{
+    /* border:2px solid red; */
+    padding:2%;
+}
+.welcome__footer__main__upper__left__content__rightdiv{
+    /* border:2px solid red; */
+    padding:2%;
+}
+.welcome__footer__main__upper__left__header{
+    /* border:4px solid gray; */
+    padding:1%;
+    margin:1%;
+}
+.welcome__footer__main__upper__right{
+    /* border:2px solid red; */
+    display: flex;
+    /* justify-content: center; */
+    margin-left:2%;
+    
+}
+
+.welcome__footer__main__upper__right__one__content{
+    /* border:2px solid red; */
+    display: flex;
+    flex-direction: column;
+}
+.welcome__footer__main__upper__right__two__content{
+    /* border:2px solid red; */
+    display: flex;
+    flex-direction: column;
+}
+.welcome__footer__main__upper__right__three__content{
+    /* border:2px solid red; */
+    display: flex;
+    flex-direction: column;
+}
+.welcome__footer__main__upper__right__three__content ul{
+    text-decoration: none;
+ 
+}
+
+.welcome__footer__main__lower{
+    /* border:2px solid greenyellow; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+
+}
+.welcome__footer__main__upper__right__header h1{
+    font-size: 17px;
+    margin-top:3%;
+}
+.welcome__footer__main__upper__right__one{
+    /* border:2px solid red; */
+    width: 160px;
+}
+.overruled{
+    /* border:2px solid red; */
+    margin:0px !important;
+    padding:0px !important;
+    padding:1% !important;
+    margin-top:6% !important;
+}
+
+
+.bullet{
+    margin-left:10%;
+    padding:2%;
+    font-size: 13px;
+}
+
+
+
+
+
+
+
+
+
+
+/* RIGHT PART TO BE ACCESSED NOW  */
+
+
+.welcome__footer__main__upper__right{
+    
+ 
+    /* border:2px solid rgb(2, 238, 159); */
+    width: 600px;
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    height: 150px;
+   
+}
+.welcome__footer__main__upper__right__one{
+    /* border:2px solid rgb(115, 255, 0); */
+    /* padding:1%; */
+}
+.welcome__footer__main__upper__right__two{
+    /* border:2px solid rgb(115, 255, 0); */
+    /* padding:1%; */
+}
+.welcome__footer__main__upper__right__three{
+    /* border:2px solid rgb(115, 255, 0); */
+    /* padding:1%; */
+}
+.welcome__footer__main__upper__right__one__header{
+    /* border:4px solid gray; */
+    /* padding:2%; */
+    /* margin:2%; */
+}
+.welcome__footer__main__upper__right__one__header h1{
+    font-size: 20px;
+
+}
+.welcome__footer__main__upper__right__one__content{
+    /* border:2px solid red; */
+    /* padding:2%; */
+    margin-top:5%;
+
+    
+
+}
+.welcome__footer__main__upper__right__one__content h2{
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 20px;
+    
+}
+.welcome__footer__main__upper__right__two{
+    /* border:2px solid red; */
+    width: 200px;
+}
+.welcome__footer__main__upper__right__one__content{
+    padding:2%;
+    padding-top:5%;
+}
+.welcome__footer__main__upper__right__three{
+    width: 160px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+
+
+
+
+
+
+SCROLL code
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  width: 5000px;
+}
+
+button {
+  position: fixed;
+}
+</style>
+</head>
+<body>
+
+<p>Click the button to scroll the document window by 100px horizontally.</p>
+
+<p>Look at the horizontal scrollbar to see the effect.</p>
+
+<button onclick="scrollWin()">Click me to scroll horizontally!</button><br><br>
+
+<script>
+function scrollWin() {
+  window.scrollBy(10000, 0);
+}
+</script>
+
+</body>
+</html> */
+
+.welcome__footer__main__upper{
+    /* border:2px solid red; */
+
+    
+
+}
+
+
+.welcome__footer__main__lower{
+    /* border:2px solid red; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border:2px solid red; */
+    padding:2%;
+    padding-top:0%;
+    padding-bottom:5%;
+}
+.welcome__footer__main__lower__line{
+    width: 350px;
+    height:1px;
+    /* border:2px solid red; */
+    background-color: white;
+}
+
+.welcome__footer__main__lower__circles{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    /* border:2px solid red; */
+    width: 30%;
+}
+.welcome__footer__main__lower__circles__circle{
+    width: 50px;
+    height: 50px;
+    border:2px solid rgb(73, 71, 71); 
+    border-radius: 200px 200px 200px 200px;
+-moz-border-radius: 200px 200px 200px 200px;
+-webkit-border-radius: 200px 200px 200px 200px;
+/* border: 0px solid #000000; */
+/* border-radius: 40% 60% 70% 30% / 30% 30% 70% 70%; */
+
+}
+.horline{
+    /* border:3px solid red; */
+    height:  180px;
+    width: 1px;
+    background-color: white;
+}
+
+.acc h2{
+    /* border:3px solid red; */
+    margin-left:2%;
+}
+                            
+
+.welcome__footer__button{
+    /* border:2px solid red; */
+    text-align: center;
+    position: relative;
+    
+    width: fit-content;
+    /* left:50%; */
+    top:-23px;
+    height: 34px;
+    margin:auto;
+    /* margin-top:5%; */
+    /* margin-bottom: 5%; */
+}
+.buttonagain{
+    border:2px solid rgb(255, 255, 255) !important;
+    border-radius: 0px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 900px) {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .welcome__footer__main{
+        /* border:2px solid red; */
+        /* background-color: rgb(47, 56, 78); */
+        background-color: rgb(41, 48, 65);
+        color:rgb(255, 255, 255) !important;
+        
+     
+     
+        
+    }
+    .welcome__footer__main__upper{
+        display: block;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding:2%;
+        /* border:2px solid red; */
+        box-shadow: 0px 0px 9px -7px rgba(0, 0, 0, 0.75);
+        padding-top:2%;
+        padding-bottom:1%;
+        
+    
+    
+    
+    }
+    .welcome__footer__main__lower{
+    
+        display: flex;
+        margin-top:5%;
+        height: 100px;
+        font-size: 10px !important;
+        box-shadow: 0px 0px 9px -7px rgba(0, 0, 0, 0.75);
+
+        
+    
+    
+    
+    }
+    .welcome__footer__main__upper__left{
+        display: flex;
+        justify-content: center;
+        align-items: center ;
+
+        /* border:2px solid rgb(199, 2, 238); */
+        height: 150px;
+        width: 50%;
+        box-shadow: 0px 0px 9px -3px rgba(0, 0, 0, 0.75);
+        padding:1%;
+        margin:1%;
+        margin-top:2%;
+        margin-bottom:1% !important;
+
+       
+        
+
+    }
+    .welcome__footer__main__upper__left__content{
+        width: 100%;
+        /* border:2px solid red; */
+       
+     
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+        /* padding:1%; */
+        /* margin:1%; */
+
+    }
+    .welcome__footer__main__upper__left__content h1{
+       font-size: 8px;
+
+
+       letter-spacing: 0.7px;
+       line-height: 12px;
+    
+    }
+    .welcome__footer__main__upper__left__header h1{
+        border-bottom:1px solid #ED5A29;
+        padding-bottom:1%;
+        width: fit-content;
+        margin:auto;
+        font-size: 10px;
+
+    }
+    
+    .welcome__footer__main__upper__left__content__leftdiv{
+        padding:2%;
+
+    }
+    .welcome__footer__main__upper__left__content__rightdiv{
+        /* border:2px solid red; */
+        padding:2%;
+    }
+    .welcome__footer__main__upper__left__header{
+        /* border:4px solid gray; */
+       text-align: center;
+       /* border:2px solid rgb(228, 33, 186); */
+       
+        padding:0% !important;
+        margin-bottom:2% !important;
+    }
+    .welcome__footer__main__upper__right{
+     
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-bottom:2%;
+        /* border:2px solid red; */
+    }
+    .welcome__footer__main__upper__right__one{
+        box-shadow: 0px 0px 9px -3px rgba(0, 0, 0, 0.75);
+        margin:1%;
+        /* border:2px solid red; */
+    }
+    .welcome__footer__main__upper__right__two{
+        box-shadow: 0px 0px 9px -3px rgba(0, 0, 0, 0.75);
+        width: 40% !important;
+        margin:1%;
+        /* border:2px solid red; */
+    }
+    .welcome__footer__main__upper__right__three{
+        box-shadow: 0px 0px 9px -3px rgba(0, 0, 0, 0.75);
+        margin:1%;
+        width: 36% !important;
+        /* border:2px solid red; */
+        margin-bottom:0%;
+    }
+    .welcome__footer__main__upper__right__one__content{
+        /* border:2px solid red; */
+        display: flex;
+        padding:0% !important;
+        margin:0% !important;
+        flex-direction: column;
+    }
+    .welcome__footer__main__upper__right__two__content{
+        /* border:2px solid red; */
+    
+    }
+    .welcome__footer__main__upper__right__three__content{
+        /* border:2px solid red; */
+   
+    }
+    .welcome__footer__main__upper__right__three__content ul{
+        text-decoration: none;
+     
+    }
+    
+    .welcome__footer__main__lower{
+        /* border:2px solid greenyellow; */
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    
+    
+    
+    }
+    .welcome__footer__main__upper__right__header h1{
+        font-size: 10px;
+        margin-top:0%;
+        border-bottom:1px solid #ED5A29;
+        width: fit-content;
+        padding-bottom:1%;
+        margin:auto;
+    }
+    .welcome__footer__main__upper__right__one{
+        /* border:2px solid red; */
+        padding:2%;
+        width: 160px;
+    }
+    .welcome__footer__main__upper__right__one > div{
+        /* border:3px solid red; */
+        margin-bottom:2%;
+    }
+    .welcome__footer__main__upper__right__two{
+        /* border:3px solid red; */
+        padding:2%;
+       
+    }
+    .welcome__footer__main__upper__right__three{
+        /* border:3px solid red; */
+        padding:2%;
+       
+    }
+ 
+
+
+
+    .overruled{
+        /* border:2px solid red; */
+        margin:0px !important;
+        padding:0px !important;
+        padding:0% !important;
+        margin-top:0% !important;
+    }
+    
+    
+    .bullet{
+        margin-left:0%;
+        padding:0%;
+        font-size: 8px;
+        
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    /* RIGHT PART TO BE ACCESSED NOW  */
+    
+    
+    .welcome__footer__main__upper__right{
+        
+     
+        /* border:2px solid rgb(2, 238, 159); */
+        width: 300px;
+        display: flex;
+        justify-content: space-around;
+        /* align-items: center; */
+        height: fit-content;       
+    }
+    .welcome__footer__main__upper__right__one{
+        /* border:2px solid rgb(115, 255, 0); */
+        /* padding:1%; */
+    }
+    .welcome__footer__main__upper__right__two{
+        /* border:2px solid rgb(115, 255, 0); */
+        /* padding:1%; */
+    }
+    .welcome__footer__main__upper__right__three{
+        /* border:2px solid rgb(115, 255, 0); */
+        /* padding:1%; */
+    }
+    .welcome__footer__main__upper__right__one__header{
+        /* border:4px solid gray; */
+        /* padding:2%; */
+        /* margin:2%; */
+
+    }
+    .welcome__footer__main__upper__right__one__header h1{
+        font-size: 10px;
+    
+    }
+    .welcome__footer__main__upper__right__one__content{
+        /* border:2px solid red; */
+        /* padding:2%; */
+    
+        margin-top:5%;
+    
+        
+    
+    }
+    .welcome__footer__main__upper__right__one__content h2{
+        font-size: 8px;
+        letter-spacing: 0.7px;
+        line-height: 12px;
+        
+    }
+    .welcome__footer__main__upper__right__two{
+       
+        width: 200px;
+    }
+    .welcome__footer__main__upper__right__one__content{
+        padding:0%;
+        
+        
+        padding-top:0%;
+    }
+    .welcome__footer__main__upper__right__three{
+        width: 160px;
+        /* border:2px solid red; */
+        /* border:2px solid red; */
+
+    }
+    .welcome__footer__main__upper__right__three ul{
+    
+        width: 25%;
+        margin:auto;
+        text-align: left;
+    }
+ 
+    .dec{
+        font-size: 8px !important;
+    }
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+.welcome__footer__main__upper{
+    /* border:2px solid red; */
+    padding:0px !important;
+    margin:0px !important;
+    
+
+}
+
+
+.welcome__footer__main__lower{
+    /* border:2px solid red; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border:2px solid red; */
+    padding:2%;
+    padding-top:0%;
+    padding-bottom:5%;
+}
+.welcome__footer__main__lower__line{
+    width: 130px;
+    height:0.5px;
+    /* border:2px solid red; */
+    background-color: white;
+}
+
+.welcome__footer__main__lower__circles{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    /* border:2px solid red; */
+    width: 30%;
+}
+.welcome__footer__main__lower__circles__circle{
+    width: 30px;
+    height: 30px;
+    border:1px solid rgb(73, 71, 71); 
+    border-radius: 200px 200px 200px 200px;
+-moz-border-radius: 200px 200px 200px 200px;
+-webkit-border-radius: 200px 200px 200px 200px;
+/* border: 0px solid #000000; */
+/* border-radius: 40% 60% 70% 30% / 30% 30% 70% 70%; */
+
+}
+.horline{
+    /* border:3px solid red; */
+    height:180px;
+    /* padding-right:4% !important; */
+    /* margin-left:4%; */
+
+    width: 45px;
+    background-color: rgb(230, 24, 24);
+    display: none;
+}
+
+.acc h2{
+    /* border:3px solid red; */
+    margin-left:2%;
+}
+
+}
+                            
+
+    
+    
+    
+
+
+
